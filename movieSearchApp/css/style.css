@@ -1,0 +1,28 @@
+.support {
+  position: absolute;
+  top: 0;
+  right: 10%;}
+#movies .col-md-3 img {
+  height: 240px;
+  width: 190px;
+  margin-top: 10px;
+}
+#movies .col-md-3 h5 {
+  margin: 10px 0 15px 0;
+  font-size: 13px;
+  height: 30px;
+}
+#movies, #movie img {
+  width: 100%;
+}
+.hide {
+  display: none;
+}
+@media(min-width: 960px) {
+  #movies .col-md-3 .well {
+    height: 390px;
+  }
+  #movies .col-md-3 img {
+    height: 240px;
+  }
+}

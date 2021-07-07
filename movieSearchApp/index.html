@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Designed and Coded by Adam B. Jost in May, 2020 -->
+    <title>MovieSearch.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Original Style Sheet Link -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Bootstrap   -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- jQuery Src Link -->
+    <script src="js/jQuery.js"></script>
+  </head>
+  <body>
+    <!-- MovieInfo.com Navigation Link -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html">MovieSearch.com</a>
+        </div>
+      </div>
+    </nav>
+    <!-- Movie Search Bar -->
+    <div class="container">
+      <div class="jumbotron" style="background-color:#2387b7;">
+        <h3 class="text-center">Search For Any Movie</h3>
+        <form id="searchForm">
+          <input type="text" class="form-control" id="searchInput" placeholder="Search Movies...">
+        </form>
+      </div> 
+    </div>
+    <!-- Movie Query Results -->
+    <div class="container">
+      <div id="movies" class="row"></div>
+    </div>
+    <!-- Supported Browsers Declaration -->
+    <div class="support">
+      <small> ES6 Supported Browsers: Chrome, Firefox, Edge, Safari, & Opera</small>
+    </div>
+  <!-- Script Src -->
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>    
+  </body>
+</html>
+    
