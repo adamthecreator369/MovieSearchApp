@@ -1,7 +1,8 @@
 .support {
   position: absolute;
   top: 0;
-  right: 10%;}
+  right: 10%;
+}
 #movies .col-md-3 img {
   height: 240px;
   width: 190px;
